@@ -1,0 +1,49 @@
+{
+  "Diff": {
+    "bytes": 37659,
+    "sha256": "9f9dc94efa41a137de6e4bba4a0dcfb60a86a04a7795e2ad2c28b378fd74ba1f",
+    "sources": {
+      "src/app/main.ps1": "c06653a4c9d45b6f2bd092b19f2f255ac0d292780975639dc47ad2522922656e",
+      "src/lib/Runtime.ps1": "74871b44a79f98038cb0226e09a2c0a57e3cc8ab6d1f2ef9a3fafc7c123cd5cd",
+      "src/lib/Diff.ps1": "879e54aa4581725b2898563c7ee62146d73c2d66cd3891c32e4c5d433736f7ea",
+      "src/lib/VBAToolkit.psm1": "2363e1afdb93a02774dc0f4ad8e187bd0f334405dcd1410ee2f1613738f7b390",
+      "src/lib/Replace.ps1": "539591be57b5730de5aca5b447fb0b85f3030df984b010bd9e6a8c80d1cf38b2",
+      "src/lib/replace.py": "1f0d2c90962879261f669d9a99d60ec7857fd49343045ebbc812247d334fe0b0",
+      "src/vendor/Macro2Chat/macro2chat.py": "bb025e74196d894d2fa2a3eafb4c3aa52eaa683025be63f7d767606344ffe43e",
+      "src/lib/report.html": "38b4c849c4589898a4ef3c957368f4a6d9cf0c16fbbb8aa02cb9b4acdf038a23"
+    }
+  },
+  "Unlock": {
+    "bytes": 19217,
+    "sha256": "2934f1a8aeb103353b8521f72917a48dbcee7bca592065f2535eb2e65db03f36",
+    "sources": {
+      "src/app/main.ps1": "c06653a4c9d45b6f2bd092b19f2f255ac0d292780975639dc47ad2522922656e",
+      "src/lib/Runtime.ps1": "74871b44a79f98038cb0226e09a2c0a57e3cc8ab6d1f2ef9a3fafc7c123cd5cd",
+      "src/lib/Unlock.ps1": "68352fd7013432b4a3aae2218d6e0815447996131b73bec950aaf18d82630c10",
+      "src/lib/VBAToolkit.psm1": "2363e1afdb93a02774dc0f4ad8e187bd0f334405dcd1410ee2f1613738f7b390",
+      "src/lib/VbaToolkitNative.cs": "ee22ea44a86fcf4709efda1c55e636cf9658536be584b4ce619070baa6864792"
+    }
+  },
+  "Markdown": {
+    "bytes": 28515,
+    "sha256": "1353dc11f2d6bee3e4e999331421c7c3cffa49e340fa4c3f266525133dfd0116",
+    "sources": {
+      "src/app/main.ps1": "c06653a4c9d45b6f2bd092b19f2f255ac0d292780975639dc47ad2522922656e",
+      "src/lib/Runtime.ps1": "74871b44a79f98038cb0226e09a2c0a57e3cc8ab6d1f2ef9a3fafc7c123cd5cd",
+      "src/lib/Replace.ps1": "539591be57b5730de5aca5b447fb0b85f3030df984b010bd9e6a8c80d1cf38b2",
+      "src/lib/replace.py": "1f0d2c90962879261f669d9a99d60ec7857fd49343045ebbc812247d334fe0b0",
+      "src/vendor/Macro2Chat/macro2chat.py": "bb025e74196d894d2fa2a3eafb4c3aa52eaa683025be63f7d767606344ffe43e"
+    }
+  },
+  "Replace": {
+    "bytes": 28514,
+    "sha256": "0a7e83800b75c03e42a60bf8399850eaf9b5d6e8a0396256e459afa3a2cff787",
+    "sources": {
+      "src/app/main.ps1": "c06653a4c9d45b6f2bd092b19f2f255ac0d292780975639dc47ad2522922656e",
+      "src/lib/Runtime.ps1": "74871b44a79f98038cb0226e09a2c0a57e3cc8ab6d1f2ef9a3fafc7c123cd5cd",
+      "src/lib/Replace.ps1": "539591be57b5730de5aca5b447fb0b85f3030df984b010bd9e6a8c80d1cf38b2",
+      "src/lib/replace.py": "1f0d2c90962879261f669d9a99d60ec7857fd49343045ebbc812247d334fe0b0",
+      "src/vendor/Macro2Chat/macro2chat.py": "bb025e74196d894d2fa2a3eafb4c3aa52eaa683025be63f7d767606344ffe43e"
+    }
+  }
+}

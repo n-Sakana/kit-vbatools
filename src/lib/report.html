@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>{{TITLE}}</title>
+<h1>{{TITLE}}</h1>
+<p>{{SUBTITLE}}</p>
+<main id="diff-report"></main>
+<script type="application/json" id="vba-diff-data">{{DIFF_JSON}}</script>
+<script>
+const data = JSON.parse(document.getElementById('vba-diff-data').textContent);
+const report = document.getElementById('diff-report');
+for (const module of data.modules) {
+  const section = document.createElement('section');
+  const title = document.createElement('h2');
+  title.textContent = `${module.name} (${module.status})`;
+  section.appendChild(title);
+  const code = document.createElement('pre');
+  code.textContent = module.rows.map(row => {
+    const mark = row.kind === 'add' ? '+' : row.kind === 'remove' ? '-' : ' ';
+    return `${mark} ${row.oldLine ?? ''}\t${row.newLine ?? ''}\t${row.text}`;
+  }).join('\n');
+  section.appendChild(code);
+  report.appendChild(section);
+}
+</script>
+</html>
